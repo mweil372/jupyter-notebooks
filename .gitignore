@@ -4,4 +4,11 @@
 /**/*.py
 /**/*.zip
 /**/*.png
-Python for data visualisation/
+/**/*.pdf
+/**/*.json
+/**/*.gpx
+/**/*.jpg
+/export-20210227/*
+/Python for data visualization/*
+/.ipynb_checkpoints/*
+/__pycache__/*
