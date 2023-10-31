@@ -74,6 +74,9 @@ target/
 /**/*.gpx
 /**/*.jpg
 /**/*.md
+/**/*.xlsx
+/**/*.xlsm
+/**/*.svg
 /export-20210227/*
 /Python for data visualization/*
 /__pycache__/*
@@ -81,3 +84,6 @@ target/
 /.venv/*
 /__pycache__/*
 /.ipynb_checkpoints/*
+
+#Secrets
+secrets.json

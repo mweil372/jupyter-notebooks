@@ -1,0 +1,10 @@
+kind : apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myapp
+data:
+  key: value
+
+kmonAtlassianUser : 'mario.weil@kmon.net'
+kmonAtlassianToken : 'HiFrTJWOSnTCjPjzAwhODCEC'
+kmonAtlassianHost : 'https://kmooon.atlassian.net/''
