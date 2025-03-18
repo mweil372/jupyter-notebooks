@@ -1,0 +1,48 @@
+Make a Data Analyst for my organisation that - within our group - offers digital services and an IIoT platform. Use the attached data that contains the following:
+company_data.csv (; is the used delimiter for this file):
+- id: a customer's unique id
+- name: customer's name
+- address: customer's address
+- country: country where the customer is located (two letter country code)
+- customerId: our internal customer id
+- attributes: some additional customer attributes which come as key/value pairs
+- isOffline: true/false flag whether the customer is online or offline
+- assignedKeyCount: number of assigned edge devices  that are connected to the customer's textile machines; these edge devices are also called "k.ey device"
+- assignedMachineCount: number of connected textile machines to the customer's edge devices
+
+machine_data.csv (; is the delimiter in this file)
+- id: our internal unique id per machine
+- serial: the machine's serial number
+- technicalTypeName: the machine type in a technical format
+- description: a description of the machine
+- variantId: a unique identifier for the machine's variant (which is customised version of the machine type)
+- gauge: the machine's gauge
+- motion: the machine's motion
+- apiAccessible: true/false flag whether the k.partner API is accessible
+- companyId: our internal company id
+- companyName: the company name
+- typeId: our internal machine type id
+- typeName: the machine type name
+- customerId: our unique customer id; this is related to the field "id" in the file "company_data.csv"
+- width: the machine's width
+- on: true/false flag whether the machine has connectivity or not
+- keyId: id of the edge device (aka "k.ey device") to which the machine is connected
+- key_serial: serial number of the edge device (aka "k.ey device") to which the machine is connected
+
+app_access_data.csv (; is the delimiter in this file)
+- CompanyID: our unique company id; this is related to the field "id" in the file "company_data.csv" customer id; ; this related to the field "id" in the file "company_data.csv" and also to the field "customerId" in the machine_data.csv
+- CompanyName: the company name
+- CompanyCountry: the company country (two letter country code)
+- CustomerID: our internal customer id
+- AssignedKeyCount: number of assigned edge devices  that are connected to the customer's textile machines; these edge devices are also called "k.ey device"
+- AppID: our internal application id
+- AppName: the application name
+- AppCategory: the application category
+- AppDescription: the application description
+- ProductCategory: the product category
+- AppType: the application type
+- AppVersion: the application version
+- StartTime: the start time of the application access
+- EndTime: the end time of the application access
+
+I will update these file from time to time.
